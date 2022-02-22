@@ -1,0 +1,223 @@
+/* OVERALL HTML */
+html {
+  scroll-behavior: smooth;
+}
+
+/* BODY STYLES */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  line-height: 1.5;
+  background-image: url("https://pbblogassets.s3.amazonaws.com/uploads/2020/07/07153336/Background-Loops-in-After-Effects-CC-RepeTile.jpg");
+}
+
+
+/* NAV MENU BAR */
+
+nav {
+  padding: 20px 16px;
+  color: white; 
+  display: block; 
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0; 
+  overflow: hidden;
+  background-color: #333;
+  box-shadow: 5px 5px 3px rgb(80, 79, 79);
+  
+}
+
+nav li{
+  display: block;
+  float: left; 
+  justify-content: space-evenly;
+}
+
+nav li a{
+  display: block;
+  color: white; 
+  text-align: center; 
+  padding: 14px 16px;
+  text-decoration: none; 
+  border-right: 1px solid #bbb;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+nav li a:active {
+  background-color: rgb(255, 174, 174);
+}
+
+/* CARDS STYLES */
+
+.card {
+  background-color: aliceblue;
+  padding: 32px;
+  margin: 32px auto;
+  max-width: 700px;
+  box-shadow: 0 0 8px lightgrey;
+  border-style: dashed;
+}
+
+.card h4 {
+  color: #3a3a3a;
+  text-transform: uppercase;
+  margin-top: 0;
+  text-align: center;
+}
+
+.card a {
+  background-color: rgb(38, 44, 44);
+  padding: 16px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.card img{
+  float: left;
+  margin: 13px 34px;
+  width: 300px; 
+}
+
+.highlight {
+  background-color: rgb(255, 174, 174);
+}
+
+
+/* CARD CONTENTS - SPECIFICS */
+
+.aboutMe {
+  box-shadow: 3px 3px 30px 5px grey;
+  border-style: solid;
+}
+
+.card p {
+  margin-bottom: 16px;
+}
+
+.image-row {
+  display: block; 
+  justify-content: space-evenly;
+  text-align: center; 
+}
+
+.image-row img {
+  float: initial;
+  margin: auto;
+}
+
+
+/* BUTTON */
+
+div .button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* PROJECTS CARD */
+
+.projectlinks {
+  list-style: none;
+  margin-left: 60px; 
+  margin-right: 100px; 
+}
+
+.projectlinks li {
+  display: inline;
+  float: inline-start;
+}
+
+.projectlinks .minicard{
+  background-color: none;
+  list-style: none;
+  display: block; 
+}
+
+.projectlinks a:hover {
+  background-color: #111;
+}
+
+.projectlinks a:active {
+  background-color: rgb(255, 174, 174);
+}
+
+/* MINI CARDS WITHIN PROJECT CARD */
+
+
+.minicard {
+  list-style: none; 
+  background-color: snow;
+  display: block; 
+  padding: 35px; 
+  margin: 10px auto;  
+  max-width: 300px; 
+  border-style: solid;
+}
+
+div .minicard {
+  text-align: center;
+  max-width: 555px; 
+}
+
+.minicard h5 {
+  font-size: 20px;
+  padding: 25px; 
+  margin-top: 5px;
+  margin-bottom: 5px; 
+  border-style: dashed; 
+}
+
+
+/* LINKS CARD (SOCIALS) */
+
+.linkscard a img{
+  border-style: solid; 
+  padding: 5px; 
+  border-radius: 50%;
+  border-color: #333;
+  }
+
+.linkscard a:hover img{
+  border-color:rgb(255, 174, 174); 
+}
+
+.linkscard {
+  background-color: aliceblue;
+  padding: 32px;
+  margin: 32px auto;
+  max-width: 700px;
+  box-shadow: 0 0 8px lightgrey;
+  border-style: dashed;
+}
+
+.linkscard h4 {
+  color: #3a3a3a;
+  text-transform: uppercase;
+  margin-top: 0;
+  text-align: center;
+}
+
+/* FOOTER */
+
+.footer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 40px;
+  background-color: rgb(255, 174, 174);
+  border-style: dashed; 
+  border-radius: 50%; 
+  padding: 7px;
+}
