@@ -214,4 +214,19 @@ h2 {
 @media (max-width: 480px) {
   .resume-entry-header { flex-direction: column; gap: 0.1rem; }
   .project-grid { grid-template-columns: 1fr; }
+
+  #hero {
+    height: auto;
+    min-height: 100svh;
+    padding-bottom: 2.5rem;
+  }
+
+  .name-wrap {
+    height: 55vw;
+    flex: none;
+  }
+
+  .tagline { font-size: 1rem; margin-bottom: 1rem; }
+
+  .scroll-cta { margin: 0 1.5rem; }
 }
